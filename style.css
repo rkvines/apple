@@ -112,6 +112,11 @@ ul li i {
     transition: all ease 0.2s;
 }
 
+.container .links a:hover {
+    opacity: 1;
+    transform: scale(1)
+}
+
 .container .links a:hover::after {
     width: 100%;
 }
@@ -198,7 +203,9 @@ ul li i {
     background-position: center;
     color: black;
 }
-
+#card-app{
+    color: black;
+}
 .con-4 .con-m-5 h1,
 .con-4 .con-m-6 h1,
 .con-4 .con-m-5 h4,
@@ -443,7 +450,8 @@ footer .block {
 
     .con-4 .container-more-content h1 {
         font-size: 65px;
-        margin-top: 300px;
+        margin-top: 50%;
+        display: block;
     }
 
     .con-4 .container-more-content h4 {
@@ -561,9 +569,7 @@ footer .block {
         margin-top: 40%;
         justify-content: center;
     }
-}
 
-@media (max-width: 360px) {
     .container {
         background: url('images/iphone media.jpeg') no-repeat;
         background-size: cover;
@@ -588,18 +594,75 @@ footer .block {
         margin-top: 10px;
         background-position: center;
     }
-    .container .links {
+
+}
+
+@media (max-width: 360px) {
+    .logo {
+        display: flex;
+        margin-right: 120%;
+        margin-left: 25%;
+    }
+
+    .item {
         display: block;
-        margin-left: 0px;
     }
-    .container .links a {
-        color: blue;
+
+    .con-4 .con-m-6 h4,
+    .con-4 .con-m-6 h1 i {
+        color: black;
+    }
+
+    .con-4 .container-more-content .links {
+        margin-top: 45%;
+        display: none;
+        margin-left: 0;
+    }
+    .con-4 .container-more-content .links a{
+        display: none;
+    }
+
+    .con-4 .container-more-content .container-title h1 {
+        font-size: 45px;
+        margin-top: 550px;
+        font-size: 35px;
+    }
+    
+    .con-4 .container-more-content h4 {
         font-size: 25px;
-        display: block
+        color: rgb(253, 248, 248);
+        margin-top: 10px;
     }
+    
+
+    .container {
+        background: url('images/iphone media.jpeg') no-repeat;
+        background-size: cover;
+        width: 105%;
+        background-size: calc(50%, 20%);
+        height: 100vh;
+        background-position: center;
+    }
+
+    /* 2 */
+    .con-2 {
+        margin-top: 20px;
+        background: url('images/1.jpg') no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* 3 */
+    .con-3 {
+        background: url('images/watches.jpg') no-repeat;
+        background-size: cover;
+        margin-top: 10px;
+        background-position: center;
+    }
+
     .container .container-title h1 {
         color: white;
-        margin-top: 35%;
+        margin-top: 65%;
         font-size: 45px;
     }
 
@@ -609,24 +672,29 @@ footer .block {
     }
 
     .container .links {
-        display: flex;
+        display: block;
         width: 100%;
         color: blue;
-        margin-top: 40%;
+        margin-top: 65%;
         justify-content: center;
     }
+
     footer {
         margin-top: 1000%;
     }
+
     .foot-nav {
         display: block;
     }
+
     .foot-nav ul {
         display: block;
     }
-    .foot-nav ul li{
+
+    .foot-nav ul li {
         text-align: center;
     }
+
     .foot-nav p {
         text-align: center;
     }
