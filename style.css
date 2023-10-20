@@ -203,9 +203,11 @@ ul li i {
     background-position: center;
     color: black;
 }
-#card-app{
+
+#card-app {
     color: black;
 }
+
 .con-4 .con-m-5 h1,
 .con-4 .con-m-6 h1,
 .con-4 .con-m-5 h4,
@@ -550,7 +552,21 @@ footer .block {
     }
 }
 
-@media (max-width: 470px) {
+@media (max-width: 450px) {
+    footer {
+        margin-top: 800%;
+    }
+
+    .logo {
+        display: flex;
+        margin-right: 120%;
+        margin-left: 25%;
+    }
+
+    .item {
+        display: block;
+    }
+
     .container .container-title h1 {
         color: white;
         margin-top: 35%;
@@ -597,6 +613,110 @@ footer .block {
 
 }
 
+@media (max-width: 400px) {
+    .logo {
+        display: flex;
+        margin-right: 120%;
+        margin-left: 25%;
+    }
+
+    .item {
+        display: block;
+    }
+
+    .con-4 .con-m-6 h4,
+    .con-4 .con-m-6 h1 i {
+        color: black;
+    }
+
+    .con-4 .container-more-content .links {
+        margin-top: 45%;
+        display: none;
+        margin-left: 0;
+    }
+
+    .con-4 .container-more-content .links a {
+        display: none;
+    }
+
+    .con-4 .container-more-content .container-title h1 {
+        font-size: 45px;
+        margin-top: 550px;
+        font-size: 35px;
+    }
+
+    .con-4 .container-more-content h4 {
+        font-size: 25px;
+        color: rgb(253, 248, 248);
+        margin-top: 10px;
+    }
+
+
+    .container {
+        background: url('images/iphone media.jpeg') no-repeat;
+        background-size: cover;
+        width: 105%;
+        background-size: calc(50%, 20%);
+        height: 100vh;
+        background-position: center;
+    }
+
+    /* 2 */
+    .con-2 {
+        margin-top: 20px;
+        background: url('images/1.jpg') no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* 3 */
+    .con-3 {
+        background: url('images/watches.jpg') no-repeat;
+        background-size: cover;
+        margin-top: 10px;
+        background-position: center;
+    }
+
+    .container .container-title h1 {
+        color: white;
+        margin-top: 65%;
+        font-size: 45px;
+    }
+
+    .container .container-title h4 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .container .links {
+        display: block;
+        width: 100%;
+        color: blue;
+        margin-top: 65%;
+        justify-content: center;
+    }
+
+    footer {
+        margin-top: 900%;
+    }
+
+    .foot-nav {
+        display: block;
+    }
+
+    .foot-nav ul {
+        display: block;
+    }
+
+    .foot-nav ul li {
+        text-align: center;
+    }
+
+    .foot-nav p {
+        text-align: center;
+    }
+}
+
 @media (max-width: 360px) {
     .logo {
         display: flex;
@@ -618,7 +738,8 @@ footer .block {
         display: none;
         margin-left: 0;
     }
-    .con-4 .container-more-content .links a{
+
+    .con-4 .container-more-content .links a {
         display: none;
     }
 
@@ -627,13 +748,13 @@ footer .block {
         margin-top: 550px;
         font-size: 35px;
     }
-    
+
     .con-4 .container-more-content h4 {
         font-size: 25px;
         color: rgb(253, 248, 248);
         margin-top: 10px;
     }
-    
+
 
     .container {
         background: url('images/iphone media.jpeg') no-repeat;
